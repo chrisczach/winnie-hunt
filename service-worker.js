@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/winnie-hunt/precache-manifest.b3d86482785af1f4ba967a80ad4fe351.js"
+  "/winnie-hunt/precache-manifest.65758c492d28aeefd15dd24af5facb17.js"
 );
 
 workbox.clientsClaim();
