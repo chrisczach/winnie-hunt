@@ -4,6 +4,7 @@ import './App.css';
 import GameMap from './GameMap';
 import Controls from './Controls';
 import HomeSplash from './HomeSplash';
+import Div100vh from 'react-div-100vh';
 
 class App extends Component {
   state = {
@@ -96,7 +97,7 @@ class App extends Component {
   
   render() {
     return (
-      <div className="wrapper">
+      <Div100vh>
       <HomeSplash startGameHandler={this.startGameHandler} state={this.state} />
       
 
@@ -110,7 +111,7 @@ class App extends Component {
       
       <GameMap win={this.state.win} map={this.state.map} winnieMove={this.moveWinnieHandler}/>
       <Controls moveWinnie={this.moveWinnieHandler}/>
-      </div>
+      </Div100vh>
     );
   }
 }

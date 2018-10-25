@@ -175,7 +175,7 @@ img {
 }
 
 .headerfooter {
-  height: calc((100vh - 100vw)/2);
+  height: calc((80vh - 80vw)/2);
   margin: auto;
 }
 
@@ -208,7 +208,8 @@ img {
   justify-content: center;
   color: white;
   margin: auto;
-  height: calc(((100vh - 100vw)/2) - 25vw);
+  height: calc(((80vh - 100vw)/2) - 25vw);
+  transform: translateY(-10px;)
 }
 
 .splash {
@@ -256,7 +257,7 @@ h4{
   text-align: center;
   justify-content: center;
   flex: 0 0 auto;
-  font-size: 14vw;
+  font-size: 9vw;
   color: teal;
 }
 h5{
@@ -264,8 +265,9 @@ h5{
   width: 100vw;
   margin: 0 auto;
   text-align: center;
+  justify-content: center;
   flex: 0 0 auto;
-  font-size: 11vw;
+  font-size: 6vw;
   color: #555;
 
 }
