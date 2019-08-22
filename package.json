@@ -4,10 +4,10 @@
   "private": true,
   "homepage": "https://chrisczach.github.io/winnie-hunt/",
   "dependencies": {
-    "gh-pages": "^2.0.1",
+    "gh-pages": "^2.1.1",
     "react": "^16.5.2",
     "react-div-100vh": "^0.3.4",
-    "react-dom": "^16.5.2",
+    "react-dom": "^16.9.0",
     "react-scripts": "2.0.5"
   },
   "scripts": {
